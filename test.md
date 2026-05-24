@@ -1,3 +1,6 @@
+````markdown
+
+```mermaid
 graph TD
     %% 这是一段开发者注释：本图用于说明订单模块与支付模块的内部调用链路
     %% 下方定义外层基础设施结构
@@ -16,3 +19,4 @@ graph TD
     
     %% 使用虚线 (-.->) 表示响应返回
     Java_API -.->|"2. HTTP 200 OK<br/>(返回包含 OrderID 的 JSON 结果)"| Worker
+```
